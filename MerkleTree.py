@@ -112,6 +112,6 @@ if __name__ == "__main__":
     merkle_tree.calculateMerkleRoot()
     print("Merkle Root:", merkle_tree.getMerkleRoot()) 
     merkle_tree.levelOrderTraversal(merkle_tree.root)  
-#  fưffew  Nguyen dutruong  tu tài
+#  fưffew  Nguyen dutruong  tu tài  dc truòngee
     
 

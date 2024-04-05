@@ -8,7 +8,7 @@ def generate_keys():
     public_key = private_key.get_verifying_key()
     
     return private_key, public_key
-
+#   nguyendtrong
 def pubkey_to_address(pubkey):
 
     sha256_pubkey = hashlib.sha256(pubkey).digest()
