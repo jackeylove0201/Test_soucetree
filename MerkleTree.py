@@ -8,7 +8,8 @@ class Node:
         self.right = None
     
     def isFull(self):
-        return self.left and self.right
+        return self.left and self.right 
+        
     
     def __str__(self):
         return self.data
@@ -111,5 +112,5 @@ if __name__ == "__main__":
     merkle_tree.calculateMerkleRoot()
     print("Merkle Root:", merkle_tree.getMerkleRoot()) 
     merkle_tree.levelOrderTraversal(merkle_tree.root)  
-
+#  fưffew
 
